@@ -1,0 +1,39 @@
+﻿Build started 14/12/2015 14:20:50.
+     1>Project "C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Projects\ServerTp4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Sources\SFML\include\ /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D _MBCS /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\\" /Fd"C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Sources\tp4\ClientService.cpp
+         ClientService.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\SessionServer.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\SessionServer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\SessionServer.lib" /MACHINE:X86 /SAFESEH C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\ClientService.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\crc32.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\endianness.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\ini.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\IPAddress.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\IPEndPoint.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\Log.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\main_server.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\network.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\serializer.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\ServerService.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\SessionService.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\session_datacontainer.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\StringId.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\Time.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\types.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\UdpClient.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\Win32Console.obj
+         Generating code
+         43 of 791 functions ( 5.4%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         ServerTp4.vcxproj -> C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\SessionServer.exe
+       PostBuildEvent:
+         COPY /Y "C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\SessionServer_Release_x86\SessionServer.exe" "C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\\Bin\SessionServer_Release_x86.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+     1>Done Building Project "C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Projects\ServerTp4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.36

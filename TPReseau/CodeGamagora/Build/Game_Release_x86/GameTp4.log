@@ -1,0 +1,479 @@
+﻿Build started 14/12/2015 16:37:21.
+     1>Project "C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Projects\GameTp4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Sources\SFML\include\ /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D SFML_STATIC /D _MBCS /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\\" /Fd"C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Sources\tp4\Animable.cpp ..\Sources\tp4\AnimatedSprite.cpp ..\Sources\tp4\Bomb.cpp ..\Sources\tp4\Character.cpp ..\Sources\tp4\Entity.cpp ..\Sources\tp4\Game.cpp ..\Sources\tp4\GameObjects.cpp ..\Sources\tp4\game_datacontainer.cpp ..\Sources\tp4\Item.cpp ..\Sources\tp4\main_game.cpp ..\Sources\tp4\Player.cpp ..\Sources\tp4\SpriteSheet.cpp ..\Sources\tp4\World.cpp
+         Animable.cpp
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(27): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(26): note: see declaration of 'Animable::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(42): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(15): note: see declaration of 'Character::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(93): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(90): note: see declaration of 'Goomba::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(106): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(103): note: see declaration of 'Enemy::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(117): note: see declaration of 'DarkWarrior::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(14): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(11): note: see declaration of 'Item::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(13): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(11): note: see declaration of 'Bomb::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(20): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(17): note: see declaration of 'Player::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(47): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(44): note: see declaration of 'MageBlue::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(60): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(57): note: see declaration of 'Paladin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(65): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(62): note: see declaration of 'Box1::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(78): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(75): note: see declaration of 'Box2::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(91): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(88): note: see declaration of 'Box3::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(104): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(101): note: see declaration of 'Coin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(117): note: see declaration of 'Flower::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(133): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(130): note: see declaration of 'Live::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(146): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(143): note: see declaration of 'Star::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(159): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(156): note: see declaration of 'Up::type'
+         AnimatedSprite.cpp
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(27): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(26): note: see declaration of 'Animable::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(42): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(15): note: see declaration of 'Character::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(93): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(90): note: see declaration of 'Goomba::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(106): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(103): note: see declaration of 'Enemy::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(117): note: see declaration of 'DarkWarrior::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(14): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(11): note: see declaration of 'Item::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(13): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(11): note: see declaration of 'Bomb::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(20): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(17): note: see declaration of 'Player::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(47): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(44): note: see declaration of 'MageBlue::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(60): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(57): note: see declaration of 'Paladin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(65): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(62): note: see declaration of 'Box1::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(78): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(75): note: see declaration of 'Box2::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(91): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(88): note: see declaration of 'Box3::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(104): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(101): note: see declaration of 'Coin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(117): note: see declaration of 'Flower::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(133): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(130): note: see declaration of 'Live::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(146): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(143): note: see declaration of 'Star::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(159): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(156): note: see declaration of 'Up::type'
+     1>..\Sources\tp4\AnimatedSprite.cpp(92): warning C4458: declaration of 'sprite' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\AnimatedSprite.h(31): note: see declaration of 'Sprite::sprite'
+     1>..\Sources\tp4\AnimatedSprite.cpp(117): warning C4458: declaration of 'sprite' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\AnimatedSprite.h(31): note: see declaration of 'Sprite::sprite'
+     1>..\Sources\tp4\AnimatedSprite.cpp(127): warning C4458: declaration of 'sprite' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\AnimatedSprite.h(31): note: see declaration of 'Sprite::sprite'
+     1>..\Sources\tp4\AnimatedSprite.cpp(229): warning C4458: declaration of 'name' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\AnimatedSprite.h(29): note: see declaration of 'Sprite::name'
+     1>..\Sources\tp4\AnimatedSprite.cpp(249): warning C4458: declaration of 'name' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\AnimatedSprite.h(29): note: see declaration of 'Sprite::name'
+         Bomb.cpp
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(27): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(26): note: see declaration of 'Animable::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(14): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(11): note: see declaration of 'Item::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\bomb.h(13): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\bomb.h(11): note: see declaration of 'Bomb::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(42): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(15): note: see declaration of 'Character::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(93): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(90): note: see declaration of 'Goomba::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(106): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(103): note: see declaration of 'Enemy::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(117): note: see declaration of 'DarkWarrior::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(20): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(17): note: see declaration of 'Player::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(47): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(44): note: see declaration of 'MageBlue::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(60): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(57): note: see declaration of 'Paladin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(65): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(62): note: see declaration of 'Box1::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(78): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(75): note: see declaration of 'Box2::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(91): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(88): note: see declaration of 'Box3::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(104): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(101): note: see declaration of 'Coin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(117): note: see declaration of 'Flower::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(133): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(130): note: see declaration of 'Live::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(146): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(143): note: see declaration of 'Star::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(159): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(156): note: see declaration of 'Up::type'
+         Character.cpp
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(27): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(26): note: see declaration of 'Animable::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(42): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(15): note: see declaration of 'Character::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(93): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(90): note: see declaration of 'Goomba::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(106): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(103): note: see declaration of 'Enemy::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(117): note: see declaration of 'DarkWarrior::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(14): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(11): note: see declaration of 'Item::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(13): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(11): note: see declaration of 'Bomb::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(20): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(17): note: see declaration of 'Player::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(47): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(44): note: see declaration of 'MageBlue::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(60): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(57): note: see declaration of 'Paladin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(65): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(62): note: see declaration of 'Box1::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(78): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(75): note: see declaration of 'Box2::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(91): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(88): note: see declaration of 'Box3::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(104): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(101): note: see declaration of 'Coin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(117): note: see declaration of 'Flower::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(133): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(130): note: see declaration of 'Live::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(146): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(143): note: see declaration of 'Star::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(159): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(156): note: see declaration of 'Up::type'
+         Entity.cpp
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(27): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(26): note: see declaration of 'Animable::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(42): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(15): note: see declaration of 'Character::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(93): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(90): note: see declaration of 'Goomba::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(106): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(103): note: see declaration of 'Enemy::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(117): note: see declaration of 'DarkWarrior::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(14): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(11): note: see declaration of 'Item::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(13): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(11): note: see declaration of 'Bomb::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(20): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(17): note: see declaration of 'Player::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(47): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(44): note: see declaration of 'MageBlue::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(60): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(57): note: see declaration of 'Paladin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(65): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(62): note: see declaration of 'Box1::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(78): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(75): note: see declaration of 'Box2::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(91): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(88): note: see declaration of 'Box3::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(104): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(101): note: see declaration of 'Coin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(117): note: see declaration of 'Flower::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(133): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(130): note: see declaration of 'Live::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(146): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(143): note: see declaration of 'Star::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(159): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(156): note: see declaration of 'Up::type'
+         Game.cpp
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(27): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(26): note: see declaration of 'Animable::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(42): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(15): note: see declaration of 'Character::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(93): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(90): note: see declaration of 'Goomba::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(106): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(103): note: see declaration of 'Enemy::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(117): note: see declaration of 'DarkWarrior::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(14): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(11): note: see declaration of 'Item::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(13): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(11): note: see declaration of 'Bomb::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(20): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(17): note: see declaration of 'Player::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(47): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(44): note: see declaration of 'MageBlue::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(60): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(57): note: see declaration of 'Paladin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(65): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(62): note: see declaration of 'Box1::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(78): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(75): note: see declaration of 'Box2::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(91): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(88): note: see declaration of 'Box3::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(104): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(101): note: see declaration of 'Coin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(117): note: see declaration of 'Flower::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(133): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(130): note: see declaration of 'Live::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(146): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(143): note: see declaration of 'Star::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(159): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(156): note: see declaration of 'Up::type'
+     1>..\Sources\tp4\Game.cpp(181): warning C4457: declaration of 'entity' hides function parameter
+         ..\Sources\tp4\Game.cpp(169): note: see declaration of 'entity'
+         GameObjects.cpp
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(27): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(26): note: see declaration of 'Animable::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(42): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(15): note: see declaration of 'Character::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(93): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(90): note: see declaration of 'Goomba::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(106): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(103): note: see declaration of 'Enemy::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(117): note: see declaration of 'DarkWarrior::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(14): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(11): note: see declaration of 'Item::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(13): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(11): note: see declaration of 'Bomb::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(20): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(17): note: see declaration of 'Player::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(47): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(44): note: see declaration of 'MageBlue::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(60): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(57): note: see declaration of 'Paladin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(65): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(62): note: see declaration of 'Box1::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(78): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(75): note: see declaration of 'Box2::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(91): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(88): note: see declaration of 'Box3::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(104): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(101): note: see declaration of 'Coin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(117): note: see declaration of 'Flower::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(133): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(130): note: see declaration of 'Live::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(146): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(143): note: see declaration of 'Star::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(159): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(156): note: see declaration of 'Up::type'
+     1>..\Sources\tp4\GameObjects.cpp(44): warning C4018: '<': signed/unsigned mismatch
+         game_datacontainer.cpp
+         Item.cpp
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(27): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(26): note: see declaration of 'Animable::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(14): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(11): note: see declaration of 'Item::type'
+         main_game.cpp
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(27): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(26): note: see declaration of 'Animable::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(42): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(15): note: see declaration of 'Character::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(93): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(90): note: see declaration of 'Goomba::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(106): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(103): note: see declaration of 'Enemy::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(117): note: see declaration of 'DarkWarrior::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(14): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(11): note: see declaration of 'Item::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(13): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(11): note: see declaration of 'Bomb::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(20): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(17): note: see declaration of 'Player::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(47): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(44): note: see declaration of 'MageBlue::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(60): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(57): note: see declaration of 'Paladin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(65): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(62): note: see declaration of 'Box1::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(78): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(75): note: see declaration of 'Box2::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(91): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(88): note: see declaration of 'Box3::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(104): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(101): note: see declaration of 'Coin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(117): note: see declaration of 'Flower::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(133): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(130): note: see declaration of 'Live::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(146): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(143): note: see declaration of 'Star::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(159): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(156): note: see declaration of 'Up::type'
+         Player.cpp
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(27): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(26): note: see declaration of 'Animable::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(42): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(15): note: see declaration of 'Character::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(93): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(90): note: see declaration of 'Goomba::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(106): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(103): note: see declaration of 'Enemy::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(117): note: see declaration of 'DarkWarrior::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(14): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(11): note: see declaration of 'Item::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(13): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(11): note: see declaration of 'Bomb::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(20): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(17): note: see declaration of 'Player::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(47): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(44): note: see declaration of 'MageBlue::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(60): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(57): note: see declaration of 'Paladin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(65): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(62): note: see declaration of 'Box1::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(78): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(75): note: see declaration of 'Box2::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(91): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(88): note: see declaration of 'Box3::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(104): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(101): note: see declaration of 'Coin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(117): note: see declaration of 'Flower::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(133): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(130): note: see declaration of 'Live::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(146): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(143): note: see declaration of 'Star::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(159): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\gameobjects.h(156): note: see declaration of 'Up::type'
+         SpriteSheet.cpp
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(27): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(26): note: see declaration of 'Animable::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(42): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(15): note: see declaration of 'Character::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(93): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(90): note: see declaration of 'Goomba::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(106): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(103): note: see declaration of 'Enemy::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(117): note: see declaration of 'DarkWarrior::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(14): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(11): note: see declaration of 'Item::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(13): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(11): note: see declaration of 'Bomb::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(20): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(17): note: see declaration of 'Player::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(47): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(44): note: see declaration of 'MageBlue::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(60): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(57): note: see declaration of 'Paladin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(65): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(62): note: see declaration of 'Box1::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(78): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(75): note: see declaration of 'Box2::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(91): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(88): note: see declaration of 'Box3::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(104): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(101): note: see declaration of 'Coin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(117): note: see declaration of 'Flower::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(133): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(130): note: see declaration of 'Live::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(146): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(143): note: see declaration of 'Star::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(159): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(156): note: see declaration of 'Up::type'
+         World.cpp
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(27): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Animable.h(26): note: see declaration of 'Animable::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(42): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(15): note: see declaration of 'Character::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(93): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(90): note: see declaration of 'Goomba::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(106): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(103): note: see declaration of 'Enemy::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Character.h(117): note: see declaration of 'DarkWarrior::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(14): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Item.h(11): note: see declaration of 'Item::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(13): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\Bomb.h(11): note: see declaration of 'Bomb::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(20): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(17): note: see declaration of 'Player::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(47): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(44): note: see declaration of 'MageBlue::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(60): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\player.h(57): note: see declaration of 'Paladin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(65): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(62): note: see declaration of 'Box1::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(78): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(75): note: see declaration of 'Box2::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(91): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(88): note: see declaration of 'Box3::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(104): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(101): note: see declaration of 'Coin::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(120): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(117): note: see declaration of 'Flower::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(133): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(130): note: see declaration of 'Live::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(146): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(143): note: see declaration of 'Star::type'
+     1>c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(159): warning C4458: declaration of 'type' hides class member
+         c:\users\tcoutaz\documents\tpreseau\codegamagora\sources\tp4\GameObjects.h(156): note: see declaration of 'Up::type'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Game.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Sources\SFML\lib_v140_x86 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Game.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Game.lib" /MACHINE:X86 /SAFESEH C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Animable.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\AnimatedSprite.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Bomb.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Character.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\ClientService.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\crc32.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\draw_ui.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\draw_utils.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\endianness.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Entity.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Game.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\GameObjects.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\game_datacontainer.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\ini.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\IPAddress.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\IPEndPoint.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Item.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Log.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\main_game.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\network.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Player.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\ResourceManager.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\serializer.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\SessionService.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\session_datacontainer.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\SpriteSheet.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\StringId.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Time.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\tinyxml2.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\types.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\UdpClient.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Win32Console.obj
+         C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\World.obj
+         Generating code
+         8 of 2679 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           3 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         GameTp4.vcxproj -> C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Game.exe
+       PostBuildEvent:
+         COPY /Y "C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Build\Game_Release_x86\Game.exe" "C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\\Bin\Game_Release_x86.exe
+         :VCEnd
+                 1 fichier(s) copié(s).
+     1>Done Building Project "C:\Users\tcoutaz\Documents\TPReseau\CodeGamagora\Projects\GameTp4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.80
